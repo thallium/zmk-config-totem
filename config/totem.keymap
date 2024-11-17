@@ -133,7 +133,7 @@
             bindings = <
         &kp LG(ESC)  &kp LG(W)    &none              &none   &none        &none         &none         &kp HOME         &kp END      &kp PSCRN
         &kp RA(A)    &trans       &kp RA(S)          &trans  &kp LS(G)    &kp LEFT      &kp DOWN      &kp UP           &kp RIGHT    &kp TILDE
-&trans  &kp RA(F18)  &kp RA(F19)  &trans             &trans  &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(LS(TAB))  &kp LC(TAB)  &kp GRAVE  &kp DOUBLE_QUOTES
+&trans  &none        &kp RA(F19)  &trans             &trans  &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(LS(TAB))  &kp LC(TAB)  &kp GRAVE  &kp DOUBLE_QUOTES
                                   &kp LA(BACKSPACE)  &trans  &mo ADJ      &trans        &kp C_PP      &kp CAPSLOCK
             >;
         };
